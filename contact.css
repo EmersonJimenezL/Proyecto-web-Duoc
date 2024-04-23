@@ -1,0 +1,83 @@
+body{
+    height: 100%;  
+    background-image: url(images/379773.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: static;
+  }
+
+nav {
+    height: 50px;
+}
+
+.navbar {
+  background-color: transparent; /* Establece el fondo del navbar como transparente */
+  backdrop-filter: blur(10px); /* Añade un efecto de desenfoque al fondo */
+  -webkit-backdrop-filter: blur(10px); /* Para navegadores basados en WebKit */
+}
+  
+  .contact_form{ 
+    width: 30%; 
+    height: auto;
+    margin: 0px auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgba(248, 175, 224, 0.205);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    }
+  
+  input{
+    background-color: rgb(201, 201, 201);
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 90%; 
+    height: 100px; 
+    border-radius: 5px;
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px auto;
+    margin-top: 17px;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;
+    width: 30%;
+    cursor: pointer;
+  }
+
+  h1{
+    font-size: 30px
+  }
+
+  footer{
+    margin-top: 25px;
+}
+
+
+#enviar{
+  text-align: center;
+  padding-top: 7px;
+}

@@ -1,0 +1,85 @@
+body{
+    height: 100%;  
+    background-image: url(images/379773.jpg);
+    background-size: cover;
+    background-position: 0px -173px;
+  }
+
+
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+nav{
+    height: 50px;
+}
+
+.navbar {
+    background-color: transparent; /* Establece el fondo del navbar como transparente */
+    backdrop-filter: blur(10px); /* Añade un efecto de desenfoque al fondo */
+    -webkit-backdrop-filter: blur(10px); /* Para navegadores basados en WebKit */
+}
+
+
+.form{
+    border-radius: 15px;
+    width: 30%;
+    margin: 0px auto;
+    margin-top: 6%;
+    margin-bottom: 60px;
+    padding: 20PX;
+    text-align: center;
+    background-color: #564241c7;
+    color: white;
+}
+
+input{
+    margin: 20px;
+    margin-left: 0px;
+    width: 100%;
+    padding: 5px 0px;
+    border-radius: 5px;
+    background-color: rgb(201, 201, 201);
+}
+
+label{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+
+.btn-form:hover{
+    cursor: pointer;
+    background-color: rgba(85, 85, 85, 0.651);
+    border: outset 2px rgba(112, 111, 111, 0.651);
+    scale: 1.2;
+}
+
+img{
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    margin-right: 33%;
+    border-radius: 25px;
+}
+
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px auto;
+    margin-top: 17px;
+    background-color: rgba(112, 111, 111); 
+    border-color: rgb(90, 89, 89); 
+    border-style: inset; 
+    border-radius: 10px;
+    width: 30%px;
+    cursor: pointer;
+  }
+
+  footer{
+    margin-top: 25px;
+}
