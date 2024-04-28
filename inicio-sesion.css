@@ -1,0 +1,23 @@
+body{
+    background-image: url(images/379773.jpg);
+    background-size: cover;
+}
+
+.form-box{
+    background-color: #ec8e1c63;
+}
+
+.btn-form{
+    background-color:#580205;
+    border: none;
+}
+
+.btn-form:hover{
+    background-color:#420204;
+    scale: 1.2;
+}
+
+.btn-form:active{
+    background-color:#420204 !important;
+    scale: 1;
+}
