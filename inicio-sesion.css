@@ -3,8 +3,13 @@ body{
     background-size: cover;
 }
 
+.nvr-box{
+    background-color:#594c55d6;
+}
+
 .form-box{
-    background-color: #ec8e1c63;
+    background-color: #594c55d6;
+    box-shadow: 5px 5px 10px 3px rgb(0, 0, 0);
 }
 
 .btn-form{
@@ -20,4 +25,12 @@ body{
 .btn-form:active{
     background-color:#420204 !important;
     scale: 1;
+}
+
+.ftr-box{
+    background-color:#594c55d6;
+}
+
+.nav-text{
+    color: white;
 }
