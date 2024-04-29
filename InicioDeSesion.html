@@ -14,9 +14,9 @@
 
   <!--NAVBAR-->
   <header>
-    <nav class="nvr-box navbar navbar-expand-sm border-body" sdata-bs-theme="dark">
+    <nav class="nvr-box navbar navbar-expand-sm border-body" sdata-bs-theme="dark" style="padding: 0px;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Veranum</a>
+        <a href="index.html"><img src="images/VeranumLogo.png" alt="V" style="width: 60px; margin-right:15px;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,16 +41,18 @@
   <!--Formulario de inicio de sesioon-->
   <div class="container mb-4 mt-5">
     <div class="row">
-      <form class="form-box col-12 col-sm-12 col-md-12 col-lg-12 w-50 mx-auto border mb-5 mt-5 pt-5 pb-5 rounded-5">
+      <form class="form-box col-10 col-sm-10 col-md-9 col-lg-6 mx-auto border mb-5 mt-5 pt-5 pb-5 rounded-5">
         <fieldset class="text-center text-white w-50 mx-auto">
           <legend class="mb-5">Inicio de sesion</legend>
           <div class="mb-3 ">
             <label class="form-label mb-4">Nombre de usuario</label>
             <input type="text" id="name" class="form-control mb-2" placeholder="Usuario">
+            <div id="mensaje-error-nombre" style="display: none; color: red; font-size: 15px;"></div>
           </div>
           <div class="mb-3">
             <label class="form-label mb-4">Contrase;a</label>
             <input type="password" id="pass" class="form-control mb-2" placeholder="Password">
+            <div id="mensaje-error-password" style="display: none; color: red; font-size: 15px;"></div>
           </div>
           <div class="mb-4">
             <div class="form-check">

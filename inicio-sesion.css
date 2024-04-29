@@ -1,6 +1,8 @@
 body{
     background-image: url(images/379773.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center calc(50% - 20px);
 }
 
 .nvr-box{
