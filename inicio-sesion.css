@@ -5,6 +5,10 @@ body{
     background-position: center calc(50% - 20px);
 }
 
+.nav-text{
+    color: white;
+}
+
 .nvr-box{
     background-color:#594c55d6;
 }
@@ -31,8 +35,4 @@ body{
 
 .ftr-box{
     background-color:#594c55d6;
-}
-
-.nav-text{
-    color: white;
 }
