@@ -1,3 +1,3 @@
 function alerta(){
-    alert("Redirigiendo a la pagina de pago...")
+    alert("Redirigiendo a su banco...")
 }

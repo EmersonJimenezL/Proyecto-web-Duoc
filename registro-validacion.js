@@ -1,3 +1,5 @@
+// RELIZAR VALIDACIONES NUEVAMENTE, REVISAR VARIABLES
+
 function obtenerDatos() {
     var usuario = document.getElementById("inputEmail4").value;
     var password = document.getElementById("inputPassword4").value;
