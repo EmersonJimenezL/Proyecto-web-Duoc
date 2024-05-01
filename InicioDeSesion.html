@@ -8,15 +8,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="inicio-sesion.css">
+  <link rel="icon" type="image/x-icon" href="images/V.png" />
 </head>
 
 <body>
 
   <!--NAVBAR-->
-  <header style="margin-bottom: 3.4%;">
-    <nav class="nvr-box navbar bg-light navbar-expand-sm border-body" sdata-bs-theme="dark" style="padding: 0px;">
+  <header>
+    <nav class="nvr-box navbar bg-white navbar-expand-sm border-body" sdata-bs-theme="dark" style="padding: 0px;">
       <div class="container-fluid">
-        <a href="index.html"><img src="images/veranum_v3.jpg" alt="V" style="width: 100px; margin-right:15px;"></a>
+        <a href="index.html"><img src="images/V.png" alt="V" style="width: 80px; margin-right:15px;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -27,17 +28,19 @@
               <a class="nav-link nav-text" href="#">Hoteles</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link nav-text" href="#">Inicio de sesion</a>
+              <a class="nav-link nav-text" href="InicioDeSesion.html">Inicio de sesion</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link nav-text" href="#">Registrarse</a>
+              <a class="nav-link nav-text" href="registro.html">Registrarse</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
+  
   <!--Formulario de inicio de sesioon-->
+
   <div class="container mb-5 mt-5">
     <div class="row">
       <form class="form-box col-10 col-sm-10 col-md-9 col-lg-6 mx-auto border mb-5 mt-5 pt-5 pb-5 rounded-5">
@@ -66,12 +69,12 @@
   </div>
 
   <!--Incluimos el footer-->
-  <footer class="mt-3">
-    <div class="container-fluid bg-white  mb-0 p-2">
+  <footer>
+    <div class="container-fluid bg-white mt-1 p-2">
       <div class="row">
         <!--Aquí va el logo del hotel-->
         <div class="col-sm-6 col-md-4 col-lg-2">
-          <a href="#" class="text-decoration-none text-success"><img src="images/veranum_v3.jpg" style="width: 250px;"></a>
+          <a href="#" class="text-decoration-none text-success"><img src="images/V.png" class="rounded-2" style="width: 75%; filter: drop-shadow(5px 5px 8px black);"></a>  
           </div>
         <div class="col-sm-6 col-md-4 col-lg-2">
           <a href="#" class="text-decoration-none text-dark"><i class="bi bi-person-hearts"></i> Servicios Veranum</a>
@@ -80,17 +83,33 @@
           </p>
           </div>  
         <div class="col-sm-6 col-md-4 col-lg-2">
-          <a href="#" class="text-decoration-none text-success"><i class="bi bi-rocket-takeoff-fill"></i>Necesitas ayuda?</a>
+          <a href="#" class="text-decoration-none text-dark"><i class="bi bi-rocket-takeoff-fill"></i>Necesitas ayuda?</a>
           <p class="text-dark p-1">veranumhotel@gmail.com</p>
           <a href="#" class="text-dark text-decoration-none">Contactanos</a>
           </div>
         <div class="col-sm-6 col-md-4 col-lg-2">
-          <a href="#" class="text-decoration-none text-success"><i class="bi bi-rocket-takeoff-fill"></i>Cursos</a>
+          <h6>Redes</h6>
+          <a href="https://www.facebook.com/?locale=es_LA"class="text-decoration-none"><i class="bi bi-facebook"></i>Facebook</a>
+          <br>
+          <a href="https://www.instagram.com/" class="text-decoration-none"style="color: rgba(128, 0, 255);"><i class="bi bi-instagram"></i>Instagram</a>
+          <br>
+          <a href="https://www.whatsapp.com/?lang=es_LA" class="text-decoration-none"style="color:rgba(0, 152, 70);">
+            <i class="bi bi-whatsapp"></i>WhatsApp</a>
+          <br>
+          <a href="https://www.threads.net/?hl=es-la" class="text-decoration-none text-dark">
+            <i class="bi bi-threads-fill"></i>Threads</a>
+          <br>
+          <a href="https://twitter.com/?lang=es" class="text-decoration-none text-dark"><i class="bi bi-twitter-x"></i>Twitter</a>
           </div>
         <!--Aquí va el maps-->  
         <div class="col-sm-6 col-md-4 col-lg-2">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.1919501913984!2d-122.4075185855756!3d37.78374906348677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580886b341cb1%3A0x3843b8b296c92047!2sGoogleplex!5e0!3m2!1sen!2sus!4v1621916913439!5m2!1sen!2sus" width="475" height="160" style="border:0;;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.1919501913984!2d-122.4075185855756!3d37.78374906348677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580886b341cb1%3A0x3843b8b296c92047!2sGoogleplex!5e0!3m2!1sen!2sus!4v1621916913439!5m2!1sen!2sus" width="200%" height="160" style="border:0;;" allowfullscreen="" loading="lazy"></iframe>
           </div>  
+      </div>
+      <div class="container text-center">
+        <hr>
+        <p>&copy; 2024 Todos los derechos reservados</p>
+        <p>Natanael Labrea / Christian Ormeño / Demis Cuesta / Emerson Jiménez</p>
       </div>
     </div>
     </footer>
