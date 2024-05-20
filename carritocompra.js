@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',()=>{
-
+    obtenerDatos();
 });
 
 async function obtenerDatos() { //funcion asincrona, nos conectamos a una pagina exterior para pedir informacion
